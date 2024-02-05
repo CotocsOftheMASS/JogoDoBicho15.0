@@ -1,4 +1,5 @@
 let listadenumerossorteados = [];
+alert ('REGRAS DO JOGO: A maquina sorteará um número aleatório de 1 a 100, você deve chutar números até acertar, após isso, a maquina sorteará um novo número. Boa Sorte!')
 let numerolimite = 100;
 let numerosecreto = numeroaleatório();
 let tentativas = 1;
