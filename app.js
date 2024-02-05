@@ -27,8 +27,9 @@ function verificarChute() {
         document.getElementById('reiniciar').removeAttribute('disabled');
         
     } else { 
-        chute > numerosecreto ? textonatela('p', 'o numero secreto é menor') : textonatela('p', 'o numero secreto é maior');
+        chute > numerosecreto ? textonatela('p', 'o numero secreto é menor que '+ chute ) : textonatela('p', 'o numero secreto é maior que ' + chute);
        tentativas++;
+       limparcampo()
     }
 }
 
