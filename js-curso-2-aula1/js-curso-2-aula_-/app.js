@@ -10,7 +10,7 @@ function textonatela(tag, texto){
       rate: 1.2 })
 }
 function mensageminicial(){
-textonatela('h1', 'Jogo do Bicho');
+textonatela('h1', 'Jogo do Numero Secreto');
 textonatela('p', 'Escolha um número de 1 a ' + numerolimite);
 }
 mensageminicial()
